@@ -27,9 +27,9 @@ app.get("/", (req, res) => { // devuelve el formulario.html
 
 app.post("/imagen", (req, res) => {
   // recibir y almacenar la foto
-  const { foto } = req.files
-  const { name } = foto 
-  const ruta = path.join(`${__dirname}/public/imagen/${name}`)
+  const { foto } = req.files //colocar la posicion de la foto
+  const { posicion } = req.body
+  const ruta = path.join(`${__dirname}/public/imgs/imagen-${posicion}.jpg`) 
   foto.mv(ruta, (err) => {
     res.send("Archivo cargado con éxito")
   })
