@@ -2,7 +2,7 @@
 
 En este desafío se crea un servidor con Express y el paquete express-fileupload para almacenar las imágenes que estarán dentro del collage
 
-![](https://github.com/aleyire/collage-fotos/tree/main/public/img/git.gif)
+![] (https://github.com/aleyire/collage-fotos/tree/main/public/img/git.gif)
 
 ### Materia aplicada
 
@@ -16,9 +16,9 @@ En este desafío se crea un servidor con Express y el paquete express-fileupload
 - `npm install --save express-fileupload`
 - `npm i express`
 
-### Visaulización
+### Vizualización
 #### Formulario
-![](https://github.com/aleyire/collage-fotos/tree/main/public/img/form.png)
+![] (https://github.com/aleyire/collage-fotos/tree/main/public/img/form.png)
 
 #### Collage
-![](https://github.com/aleyire/collage-fotos/tree/main/public/img/collage.png)
+![] (https://github.com/aleyire/collage-fotos/blob/main/public/img/collage.png)
